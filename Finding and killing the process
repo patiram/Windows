@@ -2,7 +2,7 @@
 
 1. Find process with port number and their details
 
-command: netstat -aon ^| findstr 8000
+command: netstat -aon | findstr 8000
 
 C:\Users\xxxx>netstat -a -o -n | find "8000"
   TCP    127.0.0.1:8000         0.0.0.0:0              LISTENING       11024
