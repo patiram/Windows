@@ -1,12 +1,16 @@
 
 #Windows-environment 
 1. Suppose you have installed both python 2 and 3 in your machine
+
 2. Say the command line setup for python 2 is py and python 3 is python 
 ( It can be setup through environment variables)
+
 3. Isntall virtualenv module for both python2 and python3 using "py -m pip install virtualenv" 
 and "python -m pip install virtualenv" respectively. 
+
 4. Now create project for python2 as "py -m virtualenv your_name_for_virtualenv_directory" 
 and python3 as "python -m virtualenv your_name_for_virtualenv_directory".
+
 5. Finally, go to Scripts directiory and run activate.exe from command line. 
 You are ready to use either python2 or python3 depending on your setup. Enjoy!
 
