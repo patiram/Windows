@@ -6,7 +6,7 @@
 ( It can be setup through environment variables)
 
 3. Isntall virtualenv module for both python2 and python3 using "py -m pip install virtualenv" 
-and "python -m pip install virtualenv" respectively. 
+and "python -m pip install virtualenv" respectively. or py -2 -m virtualenv env if py and python both is python 3 then first select python verison 2
 
 4. Now create project for python2 as "py -m virtualenv your_name_for_virtualenv_directory" 
 and python3 as "python -m virtualenv your_name_for_virtualenv_directory".
